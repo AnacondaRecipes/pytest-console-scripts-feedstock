@@ -35,7 +35,6 @@ test:
     - pip check
     - pytest -vv --cov pytest_console_scripts -k "not test_env[subprocess]"
   requires:
-    - importlib_metadata
     - pip
     - pytest-cov
 
